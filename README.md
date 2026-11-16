@@ -1,4 +1,4 @@
-# Sunday Spoon
+# Sam's Recipe Box
 
 A static-first recipe box built with semantic HTML, one stylesheet, and a small amount of browser-native JavaScript. Recipe files and kitchen photos stay local to the site; there is no framework, build step, external image service, or dependency to install. Serve the folder over HTTP (for example, `python -m http.server`) because browsers do not allow `fetch()` to read local JSON files from a `file://` page.
 
