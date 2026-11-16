@@ -1,0 +1,31 @@
+Title: Fluffy Pancakes
+
+Description:
+Light and fluffy pancakes perfect for a weekend breakfast.
+
+Prep Time: 10 minutes
+Cook Time: 15 minutes
+Servings: 4
+Category: Breakfast
+Tags: breakfast, pancakes, easy
+
+Ingredients:
+- 1 1/2 cups all-purpose flour
+- 3 1/2 teaspoons baking powder
+- 1 tablespoon sugar
+- 1/4 teaspoon salt
+- 1 1/4 cups milk
+- 1 egg
+- 3 tablespoons melted butter
+
+Instructions:
+1. Whisk together flour, baking powder, sugar, and salt.
+2. Mix milk, egg, and melted butter.
+3. Combine wet and dry ingredients.
+4. Heat a lightly greased skillet.
+5. Pour batter onto skillet.
+6. Cook until bubbles form.
+7. Flip and cook until golden.
+
+Notes:
+Serve with maple syrup and fresh berries.
