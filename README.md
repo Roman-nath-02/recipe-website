@@ -4,7 +4,7 @@ A static-first recipe box built with semantic HTML, one stylesheet, and a small 
 
 ## Adding recipes
 
-The recipe index is `recipes/index.json`. It starts empty because no recipe files or photos were supplied. Add each recipe as a separate JSON text file in `recipes/`, then add its relative path to that index. Keep photos in `assets/recipes/` and use those relative paths in the `images` array. Use real photos supplied by you; image paths outside that folder are not displayed.
+The recipe index is `recipes/index.json`. It contains one clearly marked Spam Musubi sample recipe for demonstration; no user recipes or food photos were supplied. The sample uses a local cartoon SVG illustration, not an AI-generated image. Add each recipe as a separate JSON text file in `recipes/`, then add its relative path to that index. Keep your own real recipe photos in `assets/recipes/` and use those relative paths in the `images` array. Image paths outside that folder are not displayed.
 
 Recipe file fields:
 
@@ -29,4 +29,4 @@ Recipe file fields:
 }
 ```
 
-Only add content that belongs to your recipe. `images` can contain multiple photo paths; the detail page turns them into a small gallery. `featured` can be `true` for a recipe that should appear in the favorites section. Categories are generated from the recipe files, and search checks the title, description, category, tags, and ingredient names. If there are no recipe files, the site shows an honest empty state with a link back to these instructions.
+Only add content that belongs to your recipe. `images` can contain multiple photo paths; the detail page turns them into a small gallery. `featured` can be `true` for a recipe that should appear in the favorites section. Categories are generated from the recipe files, and search checks the title, description, category, tags, and ingredient names. If the recipe index is empty, the site shows an honest empty state with a link back to these instructions.

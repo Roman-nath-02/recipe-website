@@ -1,0 +1,27 @@
+{
+  "id": "spam-musubi-sample",
+  "title": "Spam Musubi (Sample)",
+  "description": "Sample recipe for demonstration only. A savory grilled Spam and rice snack wrapped with nori.",
+  "category": "Sample",
+  "featured": false,
+  "tags": ["sample", "lunch", "rice"],
+  "cookingTime": "30 minutes",
+  "images": ["assets/recipes/spam-musubi-cartoon.svg"],
+  "ingredients": [
+    { "amount": "2 cups", "name": "short-grain rice, uncooked" },
+    { "amount": "2 cups", "name": "water, or amount listed on rice package" },
+    { "amount": "1 can (12 oz)", "name": "Spam, cut into 8 slices" },
+    { "amount": "2 tablespoons", "name": "soy sauce" },
+    { "amount": "1 tablespoon", "name": "sugar" },
+    { "amount": "1 tablespoon", "name": "mirin (optional)" },
+    { "amount": "2 sheets", "name": "nori, cut into strips" }
+  ],
+  "instructions": [
+    "Rinse the rice until the water runs mostly clear. Cook with the water according to the package directions, then let it rest for 5 minutes and fluff.",
+    "Stir together the soy sauce, sugar, and mirin until the sugar dissolves.",
+    "Pan-fry the Spam slices over medium heat until browned on both sides. Pour in the sauce and turn the slices until glazed; remove from the heat.",
+    "With damp hands or a musubi mold, press the warm rice into 8 compact rectangles.",
+    "Place a glazed Spam slice on each rice block and wrap a strip of nori around it. Serve warm."
+  ],
+  "notes": "This clearly labeled sample is for demonstration only; the bundled cartoon is an illustration, not a food photo."
+}
