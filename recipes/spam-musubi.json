@@ -1,10 +1,10 @@
 {
-  "id": "spam-musubi-sample",
-  "title": "Spam Musubi (Sample)",
-  "description": "Sample recipe for demonstration only. A savory grilled Spam and rice snack wrapped with nori.",
-  "category": "Sample",
+  "id": "spam-musubi",
+  "title": "Spam Musubi",
+  "description": "A savory grilled Spam and rice snack wrapped with nori.",
+  "category": "Lunch",
   "featured": false,
-  "tags": ["sample", "lunch", "rice"],
+  "tags": ["lunch", "rice"],
   "cookingTime": "30 minutes",
   "images": ["assets/recipes/spam-musubi-cartoon.svg"],
   "ingredients": [
@@ -23,5 +23,5 @@
     "With damp hands or a musubi mold, press the warm rice into 8 compact rectangles.",
     "Place a glazed Spam slice on each rice block and wrap a strip of nori around it. Serve warm."
   ],
-  "notes": "This clearly labeled sample is for demonstration only; the bundled cartoon is an illustration, not a food photo."
+  "notes": "Serve warm while the rice is soft."
 }
