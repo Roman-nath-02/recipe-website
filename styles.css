@@ -1,15 +1,15 @@
 :root {
   color-scheme: light;
-  --ink: #342725;
-  --muted: #806f69;
-  --red: #a53d42;
-  --red-dark: #843238;
-  --pink: #f5e2df;
-  --pink-light: #fbf0ee;
-  --cream: #fff9f5;
-  --line: #eadbd5;
-  --white: #fffefd;
-  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  --ink: #38232b;
+  --muted: #765a63;
+  --red: #c43e60;
+  --red-dark: #8d2945;
+  --pink: #f4c1d0;
+  --pink-light: #fff0f4;
+  --cream: #fff8f8;
+  --line: #edcbd5;
+  --white: #fffdfd;
+  font-family: "Trebuchet MS", "Arial Rounded MT Bold", "Segoe UI", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -30,7 +30,7 @@ button, input, select { font: inherit; }
 button, select { cursor: pointer; }
 
 :focus-visible {
-  outline: 3px solid #bd6264;
+  outline: 3px solid var(--red);
   outline-offset: 3px;
 }
 
@@ -52,9 +52,9 @@ button, select { cursor: pointer; }
   gap: .65rem;
   align-items: center;
   color: var(--red-dark);
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.15rem;
-  font-weight: 700;
+  font-weight: 800;
+  letter-spacing: -.035em;
   text-decoration: none;
 }
 
@@ -67,8 +67,8 @@ button, select { cursor: pointer; }
   background: var(--red);
   border: 2px solid var(--red-dark);
   box-shadow: 3px 3px 0 var(--pink);
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.05rem;
+  font-weight: 800;
 }
 
 .header-note {
@@ -109,14 +109,13 @@ h1, h2, h3, p { margin-top: 0; }
 
 h1 {
   margin-bottom: .65rem;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.5rem, 8vw, 4.65rem);
-  font-weight: 500;
-  letter-spacing: -.055em;
+  font-weight: 800;
+  letter-spacing: -.045em;
   line-height: 1.05;
 }
 
-h1 em { color: var(--red); font-weight: 400; }
+h1 em { color: var(--red); font-weight: 800; }
 .intro-copy { margin-bottom: 0; color: var(--muted); }
 
 .browse { padding: .5rem 0 5rem; }
@@ -134,7 +133,7 @@ h1 em { color: var(--red); font-weight: 400; }
   display: flex;
   align-items: center;
   border: 1px solid var(--line);
-  border-radius: 7px;
+  border-radius: 11px;
   background: var(--white);
 }
 
@@ -172,9 +171,8 @@ h1 em { color: var(--red); font-weight: 400; }
 
 .section-heading h2 {
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.55rem;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .result-count { margin: 0; color: var(--muted); font-size: .85rem; }
@@ -188,13 +186,14 @@ h1 em { color: var(--red); font-weight: 400; }
 .recipe-card {
   overflow: hidden;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 12px;
   background: var(--white);
   transition: transform 160ms ease, box-shadow 160ms ease;
 }
 
 .recipe-card:hover {
   transform: translateY(-3px);
+  border-color: #e7a2b7;
   box-shadow: 4px 5px 0 var(--pink);
 }
 
@@ -219,12 +218,11 @@ h1 em { color: var(--red); font-weight: 400; }
   font-weight: 700;
 }
 
-.featured-label { color: #72511f; background: #f8efd9; }
+.featured-label { color: #714915; background: #fae7b9; }
 .recipe-card h3 {
   margin: .6rem 0 .35rem;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.35rem;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 1.25;
 }
 
@@ -233,14 +231,14 @@ h1 em { color: var(--red); font-weight: 400; }
 .card-description { margin-bottom: .7rem; color: var(--muted); font-size: .88rem; }
 .card-time { margin: 0; color: var(--muted); font-size: .82rem; }
 .tag-list { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .8rem; }
-.tag { color: var(--muted); background: #f6f1ed; font-weight: 500; }
+.tag { color: var(--muted); background: #fff3e7; font-weight: 600; }
 
 .empty-state, .error-state {
   max-width: 620px;
   margin: 0 auto;
   padding: clamp(1.5rem, 6vw, 3rem);
-  border: 1px dashed #d9b8b2;
-  border-radius: 9px;
+  border: 2px dashed #e2a2b5;
+  border-radius: 14px;
   background: var(--pink-light);
   text-align: center;
 }
@@ -248,9 +246,8 @@ h1 em { color: var(--red); font-weight: 400; }
 .empty-mark { margin-bottom: .5rem; color: var(--red); font-size: 1.5rem; }
 .empty-state h2, .error-state h2 {
   margin-bottom: .6rem;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.65rem;
-  font-weight: 500;
+  font-weight: 800;
 }
 .empty-state p, .error-state p { margin-bottom: .5rem; color: var(--muted); }
 .empty-state a, .text-link { color: var(--red-dark); font-weight: 700; }
@@ -269,10 +266,9 @@ h1 em { color: var(--red); font-weight: 400; }
 .detail-heading { margin-bottom: 1.5rem; }
 .detail-heading h2 {
   margin: .6rem 0;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2rem, 7vw, 3.5rem);
-  font-weight: 500;
-  letter-spacing: -.04em;
+  font-weight: 800;
+  letter-spacing: -.035em;
   line-height: 1.08;
 }
 .detail-description { max-width: 650px; margin: 0; color: var(--muted); }
@@ -285,7 +281,7 @@ h1 em { color: var(--red); font-weight: 400; }
   display: block;
   aspect-ratio: 16 / 10;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 12px;
   background: var(--pink-light);
 }
 .gallery-controls {
@@ -300,7 +296,7 @@ h1 em { color: var(--red); font-weight: 400; }
 .gallery-controls button, .back-button {
   padding: .4rem .8rem;
   border: 1px solid var(--line);
-  border-radius: 5px;
+  border-radius: 8px;
   color: var(--red-dark);
   background: var(--white);
   font-weight: 700;
@@ -310,15 +306,14 @@ h1 em { color: var(--red); font-weight: 400; }
 .detail-section { padding-top: 1.25rem; border-top: 1px solid var(--line); }
 .detail-section h3 {
   margin-bottom: .9rem;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 800;
 }
 .ingredient-list, .instruction-list { padding-left: 1.25rem; }
 .ingredient-list li, .instruction-list li { padding: 0 0 .6rem .25rem; }
 .ingredient-list li::marker { color: var(--red); }
 .instruction-list li::marker { color: var(--red-dark); font-weight: 700; }
-.notes { padding: 1rem 1.1rem; border-left: 3px solid #d88c89; background: var(--pink-light); }
+.notes { padding: 1rem 1.1rem; border-left: 4px solid #df7893; background: var(--pink-light); }
 .notes p:last-child { margin-bottom: 0; }
 
 .loading-message { padding: 2rem 0; color: var(--muted); text-align: center; }
